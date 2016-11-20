@@ -7,5 +7,5 @@ This is a simple Lightbox component for React.
 ```
 import {Lightbox} from '/path/to/Lightbox.js';
 
-const lightbox_css = require('path/to/Lightbox.css');
+require('path/to/Lightbox.css');
 ```
