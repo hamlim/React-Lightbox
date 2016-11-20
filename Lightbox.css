@@ -1,0 +1,58 @@
+:root {
+  --light-gray: color(#FFFFFF shade(8%));
+}
+
+.LB-wrapper a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.LB-image {
+  align-self: flex-start;
+  max-width: 55vw;
+  height: auto;
+  margin: 0 auto;
+  border: 0;
+}
+.LB-target-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LB-target-wrapper div {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  max-width: 90vw;
+  max-height: 90vh;
+  z-index: 2;
+}
+.LB-target-wrapper img {
+  align-self: flex-start;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+.LB-target-wrapper::before {
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: var(--light-gray);
+}
+.LB-target-wrapper:not(:target) {
+  display: none;
+}
+.LB-caption, .LB-target-caption {
+  text-align: center;
+  margin: 0 0 1.5rem;
+  display: block;
+}
