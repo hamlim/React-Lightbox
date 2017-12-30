@@ -5,9 +5,9 @@ This is a simple Lightbox component for React (v16 and above).
 ### To use in your project:
 
 ```javascript
-import Lightbox from '/path/to/Lightbox.js';
+import Lightbox from '@matthamlin/react-lightbox';
 
-require('path/to/Lightbox.css');
+require('@matthamlin/react-lightbox/src/Lightbox.css');
 
 ...
 
