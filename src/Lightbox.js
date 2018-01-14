@@ -1,4 +1,6 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+
+const Fragment = React.Fragment || ({children}) => children
 
 const Lightbox = props => {
   return (
