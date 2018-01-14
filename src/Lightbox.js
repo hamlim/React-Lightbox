@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Fragment = React.Fragment || function({children}) => { return children; };
+const Fragment =
+  React.Fragment ||
+  function({ children }) {
+    return children
+  }
 
 const Lightbox = props => {
   return (
