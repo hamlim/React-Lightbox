@@ -2,27 +2,25 @@
   "name": "@matthamlin/react-lightbox",
   "version": "1.0.1",
   "description": "A simple react lightbox component for images",
-  "main": "src/Lightbox.js",
+  "main": "dist/Lightbox.js",
   "scripts": {
+    "prepublish": "babel src/ --out-dir dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamlim/React-Lightbox.git"
   },
-  "keywords": [
-    "react",
-    "lightbox",
-    "react-lightbox",
-    "image",
-    "modal",
-    "image",
-    "popout"
-  ],
+  "keywords": ["react", "lightbox", "react-lightbox", "image", "modal", "image", "popout"],
   "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hamlim/React-Lightbox/issues"
   },
-  "homepage": "https://github.com/hamlim/React-Lightbox#readme"
+  "homepage": "https://github.com/hamlim/React-Lightbox#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
