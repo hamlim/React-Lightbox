@@ -5,21 +5,14 @@
   "main": "dist/Lightbox.js",
   "scripts": {
     "prepublish": "babel src/ --out-dir dist/",
+    "build": "babel src/ --out-dir dist/ && cp ./src/Lightbox.css ./dist/Lightbox.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamlim/React-Lightbox.git"
   },
-  "keywords": [
-    "react",
-    "lightbox",
-    "react-lightbox",
-    "image",
-    "modal",
-    "image",
-    "popout"
-  ],
+  "keywords": ["react", "lightbox", "react-lightbox", "image", "modal", "image", "popout"],
   "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
   "license": "MIT",
   "bugs": {
