@@ -1,6 +1,6 @@
 {
   "name": "@matthamlin/react-lightbox",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A simple react lightbox component for images",
   "main": "dist/Lightbox.js",
   "scripts": {
@@ -12,7 +12,15 @@
     "type": "git",
     "url": "git+https://github.com/hamlim/React-Lightbox.git"
   },
-  "keywords": ["react", "lightbox", "react-lightbox", "image", "modal", "image", "popout"],
+  "keywords": [
+    "react",
+    "lightbox",
+    "react-lightbox",
+    "image",
+    "modal",
+    "image",
+    "popout"
+  ],
   "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
   "license": "MIT",
   "bugs": {
