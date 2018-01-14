@@ -11,7 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/hamlim/React-Lightbox.git"
   },
-  "keywords": ["react", "lightbox", "react-lightbox", "image", "modal", "image", "popout"],
+  "keywords": [
+    "react",
+    "lightbox",
+    "react-lightbox",
+    "image",
+    "modal",
+    "image",
+    "popout"
+  ],
   "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
   "license": "MIT",
   "bugs": {
@@ -21,6 +29,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
   }
 }
