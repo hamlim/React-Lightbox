@@ -1,6 +1,6 @@
 {
   "name": "@matthamlin/react-lightbox",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "description": "A simple react lightbox component for images",
   "main": "dist/Lightbox.js",
   "scripts": {
