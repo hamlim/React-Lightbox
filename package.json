@@ -1,11 +1,11 @@
 {
   "name": "@matthamlin/react-lightbox",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A simple react lightbox component for images",
   "main": "dist/Lightbox.js",
   "scripts": {
     "prepublish": "babel src/ --out-dir dist/",
-    "build": "babel src/ --out-dir dist/ && cp ./src/Lightbox.css ./dist/Lightbox.css",
+    "build": "babel src/ --out-dir dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,7 +27,10 @@
     "url": "https://github.com/hamlim/React-Lightbox/issues"
   },
   "homepage": "https://github.com/hamlim/React-Lightbox#readme",
-  "dependencies": {},
+  "dependencies": {
+    "emotion": "^9.1.1",
+    "react-emotion": "^9.1.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
