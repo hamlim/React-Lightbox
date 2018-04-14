@@ -7,8 +7,6 @@ This is a simple Lightbox component for React (v16 and above).
 ```javascript
 import Lightbox from '@matthamlin/react-lightbox';
 
-require('@matthamlin/react-lightbox/src/Lightbox.css');
-
 ...
 
 render(
@@ -33,4 +31,3 @@ render(
 ### Requirements:
 
 * React
-* CSSNext (color function, this can be changed out to whatever color you want however)
