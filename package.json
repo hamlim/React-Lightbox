@@ -1,11 +1,11 @@
 {
   "name": "@matthamlin/react-lightbox",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A simple react lightbox component for images",
   "main": "dist/Lightbox.js",
   "scripts": {
     "prepublish": "babel src/ --out-dir dist/",
-    "build": "babel src/ --out-dir dist/ && cp ./src/Lightbox.css ./dist/Lightbox.css",
+    "build": "babel src/ --out-dir dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
